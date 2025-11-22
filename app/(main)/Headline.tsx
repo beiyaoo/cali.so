@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-[3.5px] -left-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      游戏玩家
     </span>
   )
 }
@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group inline-flex items-center">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
+      <span>学生</span>
     </span>
   )
 }
@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group inline-flex items-center">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>杂七杂八</span>
     </span>
   )
 }
@@ -80,10 +80,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 Beiyao，
+          <PeekabooLink href="https://maplist.atland.icu/">北极酒馆</PeekabooLink>
+          团队成员，主要负责管理组内部外部管理。
         </Balancer>
       </motion.p>
       <motion.div
@@ -109,7 +108,7 @@ export function Headline() {
           platform="youtube"
         />
         <SocialLink
-          href="https://cali.so/bilibili"
+          href="https://space.bilibili.com/480532592"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
@@ -125,7 +124,7 @@ export function Headline() {
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:beiyao.chen@qq.com"
           aria-label="我的邮箱"
           platform="mail"
         />
