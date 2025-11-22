@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Beiyao，
+          我是 Beiyao,
           <PeekabooLink href="https://maplist.atland.icu/">北极酒馆</PeekabooLink>
           团队成员，主要负责管理组内部外部管理。
         </Balancer>
